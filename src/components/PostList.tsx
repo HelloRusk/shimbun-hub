@@ -52,7 +52,7 @@ const PostLink: React.FC<{ item: PostItem }> = (props) => {
           </div>
         )}
       </a>
-      {dateMiliSeconds && dateMiliSeconds > Date.now() - 86400000 * 3 && (
+      {dateMiliSeconds && dateMiliSeconds > Date.now() - 3600000 && (
         <div className="post-link__new-label">NEW</div>
       )}
     </article>
