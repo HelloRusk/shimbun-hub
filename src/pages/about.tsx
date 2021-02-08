@@ -16,17 +16,26 @@ const Page: NextPage = () => {
               <a href="https://github.com/catnose99/team-blog-hub">
                 Team Blog Hub
               </a>
-              のデモです。ブログのRSSのURLを登録することで、チームメンバーの投稿を一覧にまとめて表示します。
+              をforkし、日本の五大全国紙をまとめて閲覧できるようにしたものです。
             </p>
             <p>
-              Medium、note、Zenn、Qiita、はてなブログなど、RSSフィードを取得できるサイトであれば、メンバーは好きな場所に投稿できます。
+              各社の「政治」「経済」「社会」「国際」のトピックのRSSフィードを集約しています。<br />
+              ただし、毎日新聞は「政治」「経済」「社会」「国際」の各トピックのRSSフィードが提供されていないため、「速報」のみを掲載しています。<br />
             </p>
             <p>
-              詳しくは
-              <a href="https://zenn.dev/catnose99/articles/cb72a73368a547756862">
-                チーム個々人のテックブログをRSSで集約するサイトをNext.jsで作った
+              現在、1時間に1回更新を行っています。
+            </p>
+            <p>
+              なお、読売・日経・産経の各社はRSSフィードを公式配信していないため、
+              <a href="https://rss.wor.jp/">
+                RSS愛好会
               </a>
-              をご覧ください。
+              が提供している非公式のRSSフィードを使っています。
+              もしこのサイトが便利だと感じた方は、
+              <a href="https://rss.wor.jp/about/">
+                RSS愛好会
+              </a>
+              の「運営を支援する」での支援も是非ご検討ください。
             </p>
           </div>
           <div className="about__actions">

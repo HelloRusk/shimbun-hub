@@ -38,7 +38,7 @@ const Page: NextPage = () => {
           <h1 className="members__title">
             Members{" "}
             <span className="members__title-team">
-              @ {config.siteMeta.teamName}
+              © {config.siteMeta.year} {config.siteMeta.teamName}
             </span>
           </h1>
           <div className="members__cards">

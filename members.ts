@@ -2,56 +2,63 @@ import { Member } from "@src/types";
 
 export const members: Member[] = [
   {
-    name: "CatNose",
-    role: "CTO",
+    name: "読売新聞",
     bio:
-      "デザインが好きなプログラマー。開発者向けの情報共有プラットフォームzenn.devを開発しています。",
-    avatarSrc: "/avatars/catnose.jpg",
+      "読売新聞オンラインは読売新聞のニュース・情報サイト。社会、スポーツ、政治、経済、国際などの最新ニュースや教育、医療などの読み物、映像ニュースも充実。ポケモン、発言小町、クーポンやプレゼントも。",
+    avatarSrc: "/avatars/yomiuri.jpg",
     sources: [
-      "https://zenn.dev/catnose99/feed",
-      "https://medium.com/feed/@catnose99",
+      "https://assets.wor.jp/rss/rdf/yomiuri/politics.rdf",
+      "https://assets.wor.jp/rss/rdf/yomiuri/economy.rdf",
+      "https://assets.wor.jp/rss/rdf/yomiuri/national.rdf",
+      "https://assets.wor.jp/rss/rdf/yomiuri/world.rdf"
     ],
-    includeUrlRegex: "medium.com|zenn.dev",
-    twitterUsername: "catnose99",
-    githubUsername: "catnose99",
-    websiteUrl: "https://catnose99.com",
+    twitterUsername: "Yomiuri_Online",
+    websiteUrl: "https://www.yomiuri.co.jp/",
   },
   {
-    name: "John Doe",
-    role: "SRE",
-    bio: "Site Reliability Engineer.",
-    avatarSrc: "/avatars/doe.jpg",
-    sources: ["https://note.com/catnose/rss"],
-    excludeUrlRegex: "n3a59e3cdd820",
-    twitterUsername: "catnose99",
+    name: "朝日新聞",
+    bio: "朝日新聞デジタルは朝日新聞のニュースサイトです。政治、経済、社会、国際、スポーツ、カルチャー、サイエンスなどの速報ニュースに加え、教育、医療、環境などの話題や写真も。",
+    avatarSrc: "/avatars/asahi.png",
+    sources: [
+      "http://www.asahi.com/rss/asahi/politics.rdf",
+      "http://www.asahi.com/rss/asahi/business.rdf",
+      "http://www.asahi.com/rss/asahi/national.rdf",
+      "http://www.asahi.com/rss/asahi/international.rdf"
+    ],
+    twitterUsername: "asahi",
+    websiteUrl: "https://www.asahi.com/",
   },
   {
-    name: "Amanda",
-    role: "Frontend dev",
-    bio: "Frontend developer,",
-    avatarSrc: "/avatars/amanda.jpg",
-    sources: ["https://qiita.com/catnose99/feed.atom"],
-    twitterUsername: "catnose99",
+    name: "毎日新聞",
+    bio: "毎日新聞のニュース・情報サイトです。事件や話題、経済や政治のニュース、スポーツや芸能、映画などのエンターテインメントの最新ニュースを掲載しています。",
+    avatarSrc: "/avatars/mainichi.jpg",
+    sources: ["https://mainichi.jp/rss/etc/mainichi-flash.rss"],
+    twitterUsername: "mainichi",
+    websiteUrl: "https://mainichi.jp/",
   },
   {
-    name: "Takada Junji",
-    role: "Designer",
-    bio: "Designing all of the apps in Foo company.",
-    avatarSrc: "/avatars/junji.jpg",
-    sources: [],
+    name: "日本経済新聞",
+    bio: "日本経済新聞の電子版。日経や日経ＢＰの提供する経済、企業、国際、政治、マーケット、情報・通信、社会など各分野のニュース。ビジネス、マネー、IT、スポーツ、住宅、キャリアなどの専門情報も満載。",
+    avatarSrc: "/avatars/nikkei.jpg",
+    sources: [
+      "https://assets.wor.jp/rss/rdf/nikkei/economy.rdf",
+      "https://assets.wor.jp/rss/rdf/nikkei/society.rdf",
+      "https://assets.wor.jp/rss/rdf/nikkei/international.rdf"
+    ],
+    twitterUsername: "nikkei",
+    websiteUrl: "https://www.nikkei.com/",
   },
   {
-    name: "Ota Naoko",
-    role: "Researcher",
-    bio: "Some texts here",
-    avatarSrc: "/avatars/naoko.jpg",
-    sources: [],
-  },
-  {
-    name: "Alexandria",
-    role: "Tech Lead",
-    bio: "IT professional with 3 years of experience",
-    avatarSrc: "/avatars/alexandria.jpg",
-    sources: [],
+    name: "産経新聞",
+    bio: "産経新聞社のニュースサイト。政治、経済、国際、社会、スポーツ、エンタメ、災害情報などの速報記事と解説記事を掲載しています。",
+    avatarSrc: "/avatars/sankei.png",
+    sources: [
+      "https://assets.wor.jp/rss/rdf/sankei/politics.rdf",
+      "https://assets.wor.jp/rss/rdf/sankei/economy.rdf",
+      "https://assets.wor.jp/rss/rdf/sankei/affairs.rdf",
+      "https://assets.wor.jp/rss/rdf/sankei/world.rdf"
+    ],
+    twitterUsername: "Sankei_news",
+    websiteUrl: "https://www.sankei.com/"
   },
 ];
